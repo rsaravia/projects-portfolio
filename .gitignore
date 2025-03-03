@@ -1,0 +1,19 @@
+# ignore the __pychache__ directory
+__pycache__/ 
+# ignore virtual enviroment
+venv/ 
+# ignore SQLite datases
+*.sqlite3
+# ignore local settings files
+local_settings.py
+# ignore User-upleaded files
+media/
+# ignore collectetd static files
+static/
+# ignore Os-generated files
+.DS_Store
+# ignore IDE specific config files
+.idea/
+.vscode/
+# ignore temporary files created by OS
+~$*
